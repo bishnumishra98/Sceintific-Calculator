@@ -6,7 +6,7 @@
 
 body {
     position: relative;
-    height: 80vh; /* Adjust the height as needed */
+    height: 90vh; /* Adjust the height as needed */
 }
 
 @media only screen and (min-width: 700px) {
@@ -41,10 +41,10 @@ body {
         font-size: 1rem;
         border-radius: 50%;
         top: 1px;
-        padding: 5px 3px;
+        padding: 3.5px 3px;
     }
     .button {
-        height: 1.7rem;
+        height: 1.5rem;
     }
 }
 
@@ -158,4 +158,4 @@ body {
     content: "rad";
     left: calc(100% - 2.6em);
     background-color: #f44336;
-    }
+}
