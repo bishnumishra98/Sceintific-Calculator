@@ -565,10 +565,6 @@ const evaluateExpression = (expression) => {
     }
 }
 
-// const evaluateSpecialExpression = (result) => {
-//     return result;
-// }
-
 // Adding 'click' event listener to all input buttons at once using for loop, to handle mouseclicks.
 for (i=0; i<input.length; i++){
     input[i].addEventListener('click', buttonClicked);
@@ -639,26 +635,6 @@ function combination(n, r) {
     }
 }
 
-// function shortenNumber(number) {
-//     number = Number(number);
-//     if(number > 9999999999) {
-//         const num = number.toFixed(3);
-//         return num;
-//     } else if(number > 9999999) {
-//         const num = number.toFixed(6);
-//         return num;
-//     } else if(number > 9999) {
-//         const num = number.toFixed(9);
-//         return num;
-//     } else if(number > 9) {
-//         const num = number.toFixed(12);
-//         return num;
-//     } else {
-//         const num = number.toFixed(13);
-//         return num;
-//     }
-// }
-
 function shortenNumber(number) {
     number = Number(number);
     if(number > 9999999999999) {
@@ -689,14 +665,18 @@ function shortenNumber(number) {
 function removeTrailingZeroes(num) {
     const str = String(num);
     const substr = str.indexOf('.');
+    // indexOf() will return '-1' if there is no '.' in 'str'
     if(substr !== -1) {
-        let x = str.length - 1;
+        let x = str.length - 1;   // 'x' is last index of 'str'
+        // decrementing 'x' untill non-zero value is found
         while(str.charAt(x) === '0') {
             x--;
         }
+        // if number is like '25.00', the non-zero value found will be '.', so decrementing once more
         if(str.charAt(x) === '.') {
             x--;
         }
+        // returning the trailing zeroes free substring
         return str.slice(0, x + 1);
     }
     return str;
