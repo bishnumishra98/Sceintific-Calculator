@@ -79,8 +79,8 @@ const updateOutput = (value) => {
             clearCurrentValue = true;
             console.log(clearCurrentValue);
         } else {
-
             currentValue = 1/currentValue;
+            currentValue = shortenNumber(currentValue);
             historyArray.push(currentValue);
         }
     } else if(value === "!") {
@@ -89,6 +89,7 @@ const updateOutput = (value) => {
         // Check if the number is a positive integer
         if (num%1 === 0 && num >= 0) {
             currentValue = factorial(num);
+            currentValue = shortenNumber(currentValue);
             historyArray.push(currentValue);
         } else {
             // Show an error message if the input is invalid
@@ -113,6 +114,7 @@ const updateOutput = (value) => {
             clearCurrentValue = true;
         } else {
             currentValue = currentValue**3;
+            currentValue = shortenNumber(currentValue);
             historyArray.push(currentValue);
         }
     } else if(value === "x<sup><sup>2</sup></sup>") {
@@ -123,6 +125,7 @@ const updateOutput = (value) => {
             clearCurrentValue = true;
         } else {
             currentValue = currentValue**2;
+            currentValue = shortenNumber(currentValue);
             historyArray.push(currentValue);
         }
     } else if(value === "√") {
@@ -133,6 +136,7 @@ const updateOutput = (value) => {
             clearCurrentValue = true;
         } else {
             currentValue = Math.sqrt(currentValue);
+            currentValue = shortenNumber(currentValue);
             historyArray.push(currentValue);
         }
     } else if(value === "∛") {
@@ -143,6 +147,7 @@ const updateOutput = (value) => {
             clearCurrentValue = true;
         } else {
             currentValue = Math.cbrt(currentValue);
+            currentValue = shortenNumber(currentValue);
             historyArray.push(currentValue);
         }
     } else if(value === "<sup><sup>n</sup></sup>√") {
