@@ -642,7 +642,7 @@ function combination(n, r) {
 
 function shortenNumber(number) {
     number = Number(number);
-    if(number > 9999999999999) {
+    if(number > 999999999999999) {
         return "Limit exceeded";
     } else if(number > 9999999999) {
         let num = number.toFixed(3);
