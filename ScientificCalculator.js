@@ -1,1 +1,717 @@
-const _0x2c6d56=_0x21e9;(function(_0x286097,_0x17d229){const _0x169b24=_0x21e9,_0x28e453=_0x286097();while(!![]){try{const _0x510492=parseInt(_0x169b24(0x207))/0x1*(parseInt(_0x169b24(0x1f9))/0x2)+-parseInt(_0x169b24(0x209))/0x3*(parseInt(_0x169b24(0x223))/0x4)+-parseInt(_0x169b24(0x1ff))/0x5+parseInt(_0x169b24(0x219))/0x6*(-parseInt(_0x169b24(0x228))/0x7)+parseInt(_0x169b24(0x210))/0x8*(parseInt(_0x169b24(0x202))/0x9)+-parseInt(_0x169b24(0x201))/0xa*(-parseInt(_0x169b24(0x1e7))/0xb)+-parseInt(_0x169b24(0x1ed))/0xc*(parseInt(_0x169b24(0x1fa))/0xd);if(_0x510492===_0x17d229)break;else _0x28e453['push'](_0x28e453['shift']());}catch(_0x2b25f0){_0x28e453['push'](_0x28e453['shift']());}}}(_0x105c,0x9bbaa));function _0x105c(){const _0xada026=['replace','sqrt','click','box-19','getElementsByClassName','Error','acos','output','input','Math.','getElementById','cosec<sup><sup>-1</sup></sup>','sin','cot','1/x','cot(','cot<sup><sup>-1</sup></sup>(','11lntmOi','tan<sup><sup>-1</sup></sup>','cosec','sin<sup><sup>-1</sup></sup>','undefined','box-20','52716JOJjhb','includes','tan(','box-38','Backspace','cos','sec<sup><sup>-1</sup></sup>(','/Math.log(10)','substring','atan','Enter','log(','11302trthGJ','1196KMDdVA','cos(','toggClick2','nPr','length','2303445cNSjrK','sin<sup><sup>-1</sup></sup>(','7927210VHHdDJ','522xGJEOo','string','addEventListener','cosec<sup><sup>-1</sup></sup>(','indexOf','157zTMSEq','log','3axJxCT','cos<sup><sup>-1</sup></sup>(','test','infinity','ln(','splice','key','97912FWGAQT','toFixed','sec','box','push','lastIndexOf','pow','asin','pop','6216aXBDCW','sec<sup><sup>-1</sup></sup>','cot<sup><sup>-1</sup></sup>','charAt','deg','name','x<sup><sup>2</sup></sup>','box-37','tan','sec(','1115788ePdMLf','box-28','innerHTML','cosec(','tan<sup><sup>-1</sup></sup>(','4109ZelALk','slice','box-29','sin(','keydown'];_0x105c=function(){return _0xada026;};return _0x105c();}const input=document[_0x2c6d56(0x231)](_0x2c6d56(0x235)),output=document['getElementsByClassName'](_0x2c6d56(0x234))[0x0];let currentValue='0';const buttonClicked=_0x3b737b=>{const _0x126496=_0x3b737b['target']['innerHTML'];updateOutput(_0x126496);};let toggleClicks1=0x0,toggleClicks2=0x0,MeasureOfAngle=_0x2c6d56(0x21d),historyArray=[],clearCurrentValue=![],exponentNclicked=![];const updateOutput=_0x3747d5=>{const _0x23ab58=_0x2c6d56;if(_0x3747d5==='🔁')toggleClicks1++,toggleClicks1%0x2===0x1?(document[_0x23ab58(0x237)](_0x23ab58(0x230))['innerHTML']='sin<sup><sup>-1</sup></sup>',document['getElementById']('box-20')[_0x23ab58(0x225)]=_0x23ab58(0x1e1),document[_0x23ab58(0x237)]('box-28')[_0x23ab58(0x225)]='cos<sup><sup>-1</sup></sup>',document[_0x23ab58(0x237)](_0x23ab58(0x22a))[_0x23ab58(0x225)]=_0x23ab58(0x21a),document['getElementById'](_0x23ab58(0x220))['innerHTML']=_0x23ab58(0x1e8),document[_0x23ab58(0x237)](_0x23ab58(0x1f0))[_0x23ab58(0x225)]=_0x23ab58(0x21b),currentValue=currentValue):(document[_0x23ab58(0x237)](_0x23ab58(0x230))['innerHTML']=_0x23ab58(0x1e2),document['getElementById'](_0x23ab58(0x1ec))['innerHTML']=_0x23ab58(0x1e9),document['getElementById'](_0x23ab58(0x224))[_0x23ab58(0x225)]=_0x23ab58(0x1f2),document[_0x23ab58(0x237)]('box-29')['innerHTML']=_0x23ab58(0x212),document['getElementById'](_0x23ab58(0x220))['innerHTML']=_0x23ab58(0x221),document[_0x23ab58(0x237)](_0x23ab58(0x1f0))[_0x23ab58(0x225)]=_0x23ab58(0x1e3),currentValue=currentValue);else{if(_0x3747d5===_0x23ab58(0x1fc))toggleClicks2++,toggleClicks2%0x2===0x0?MeasureOfAngle='deg':MeasureOfAngle='rad',currentValue=currentValue;else{if(typeof _0x3747d5===_0x23ab58(0x1eb)){return;currentValue=currentValue;}else{if(_0x3747d5==='AC')currentValue='0',historyArray[_0x23ab58(0x20e)](0x0);else{if(_0x3747d5==='CE')currentValue='0',historyArray['push'](currentValue);else{if(_0x3747d5==='←')typeof currentValue!==_0x23ab58(0x203)&&(currentValue=String(currentValue)),currentValue=currentValue[_0x23ab58(0x229)](0x0,-0x1);else{if(_0x3747d5===_0x23ab58(0x1e4))currentValue=eval(currentValue),isNaN(currentValue)?(historyArray[_0x23ab58(0x214)](currentValue),currentValue='Error',clearCurrentValue=!![]):(currentValue=0x1/currentValue,currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(_0x3747d5==='!')num=eval(currentValue),num%0x1===0x0&&num>=0x0?(currentValue=factorial(num),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue)):(historyArray['push'](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]);else{if(_0x3747d5==='^')currentValue=eval(currentValue),isNaN(currentValue)?(historyArray[_0x23ab58(0x214)](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]):currentValue=''+currentValue+_0x3747d5;else{if(_0x3747d5==='x<sup><sup>3</sup></sup>')currentValue=eval(currentValue),isNaN(currentValue)?(historyArray[_0x23ab58(0x214)](currentValue),currentValue='Error',clearCurrentValue=!![]):(currentValue=currentValue**0x3,currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(_0x3747d5===_0x23ab58(0x21f))currentValue=eval(currentValue),isNaN(currentValue)?(historyArray['push'](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]):(currentValue=currentValue**0x2,currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(_0x3747d5==='√')currentValue=eval(currentValue),isNaN(currentValue)?(historyArray['push'](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]):(currentValue=Math[_0x23ab58(0x22e)](currentValue),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(_0x3747d5==='∛')currentValue=eval(currentValue),isNaN(currentValue)?(historyArray['push'](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]):(currentValue=Math['cbrt'](currentValue),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(_0x3747d5==='<sup><sup>n</sup></sup>√')currentValue=eval(currentValue),isNaN(currentValue)?(historyArray[_0x23ab58(0x214)](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]):currentValue=currentValue+'√';else{if(_0x3747d5==='log')currentValue=eval(currentValue),isNaN(currentValue)?(historyArray[_0x23ab58(0x214)](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]):currentValue='log(';else{if(_0x3747d5==='ln')currentValue=eval(currentValue),isNaN(currentValue)?(historyArray[_0x23ab58(0x214)](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]):currentValue=_0x23ab58(0x20d);else{if(_0x3747d5==='e')currentValue=''+currentValue+eval('Math[\'E\'];'),currentValue[0x0]==='0'&&(currentValue=currentValue[_0x23ab58(0x229)](0x1)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue);else{if(_0x3747d5===_0x23ab58(0x1fd))currentValue=eval(currentValue),isNaN(currentValue)||currentValue%0x1!==0x0?(historyArray[_0x23ab58(0x214)](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]):currentValue=currentValue+'P';else{if(_0x3747d5==='nCr')currentValue=eval(currentValue),isNaN(currentValue)||currentValue%0x1!==0x0?(historyArray[_0x23ab58(0x214)](currentValue),currentValue=_0x23ab58(0x232),clearCurrentValue=!![]):currentValue=currentValue+'C';else{if(_0x3747d5==='sin')currentValue=_0x23ab58(0x22b);else{if(_0x3747d5===_0x23ab58(0x1f2))currentValue=_0x23ab58(0x1fb);else{if(_0x3747d5===_0x23ab58(0x221))currentValue='tan(';else{if(_0x3747d5===_0x23ab58(0x1e9))currentValue=_0x23ab58(0x226);else{if(_0x3747d5===_0x23ab58(0x212))currentValue=_0x23ab58(0x222);else{if(_0x3747d5===_0x23ab58(0x1e3))currentValue=_0x23ab58(0x1e5);else{if(_0x3747d5===_0x23ab58(0x1ea))currentValue=_0x23ab58(0x200);else{if(_0x3747d5==='cos<sup><sup>-1</sup></sup>')currentValue=_0x23ab58(0x20a);else{if(_0x3747d5===_0x23ab58(0x1e8))currentValue=_0x23ab58(0x227);else{if(_0x3747d5===_0x23ab58(0x1e1))currentValue=_0x23ab58(0x205);else{if(_0x3747d5===_0x23ab58(0x21a))currentValue=_0x23ab58(0x1f3);else{if(_0x3747d5==='cot<sup><sup>-1</sup></sup>')currentValue='cot<sup><sup>-1</sup></sup>(';else{if(_0x3747d5==='='){if(currentValue[_0x23ab58(0x1ee)]('^'))num=currentValue[_0x23ab58(0x22d)]('^','**'),currentValue=eval(num),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue);else{if(currentValue['includes']('√'))n=currentValue[_0x23ab58(0x1f5)](0x0,currentValue['indexOf']('√')),n=eval(n),num=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('√')+0x1),num=eval(num),currentValue=Math[_0x23ab58(0x216)](num,0x1/n)[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue);else{if(currentValue[_0x23ab58(0x1ee)]('log('))currentValue=eval(_0x23ab58(0x236)+currentValue+_0x23ab58(0x1f4))['toFixed'](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue);else{if(currentValue[_0x23ab58(0x1ee)](_0x23ab58(0x20d)))currentValue=currentValue[_0x23ab58(0x22d)](_0x23ab58(0x20d),_0x23ab58(0x1f8)),currentValue=eval(_0x23ab58(0x236)+currentValue),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue);else{if(currentValue['includes']('P'))n=currentValue[_0x23ab58(0x1f5)](0x0,currentValue[_0x23ab58(0x206)]('P')),r=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('P')+0x1),r=eval(r),currentValue=permutation(n,r),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue);else{if(currentValue[_0x23ab58(0x1ee)]('C'))n=currentValue['substring'](0x0,currentValue[_0x23ab58(0x206)]('C')),r=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('C')+0x1),r=eval(r),currentValue=combination(n,r),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue);else{if(currentValue[_0x23ab58(0x1ee)]('sin('))MeasureOfAngle==='deg'?(x=currentValue['substring'](currentValue[_0x23ab58(0x215)]('n')+0x1),x=x['replace'](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval(x),currentValue=Math[_0x23ab58(0x1e2)](x*Math['PI']/0xb4)[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue['lastIndexOf']('n')+0x1),x=x['replace'](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval(x),currentValue=Math[_0x23ab58(0x1e2)](x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(currentValue[_0x23ab58(0x1ee)](_0x23ab58(0x1fb)))MeasureOfAngle==='deg'?(x=currentValue['substring'](currentValue[_0x23ab58(0x215)]('s')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval(x),currentValue=Math[_0x23ab58(0x1f2)](x*Math['PI']/0xb4)[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue['lastIndexOf']('s')+0x1),x=x['replace'](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval(x),currentValue=Math[_0x23ab58(0x1f2)](x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue));else{if(currentValue[_0x23ab58(0x1ee)](_0x23ab58(0x1ef)))MeasureOfAngle==='deg'?(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('n')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval(x),currentValue=Math[_0x23ab58(0x221)](x*Math['PI']/0xb4)[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue===0x3a052cf8639b6a&&(currentValue=_0x23ab58(0x20c),clearCurrentValue=!![]),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('n')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')['replace'](/×/g,'*'),x=eval(x),currentValue=Math[_0x23ab58(0x221)](x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue));else{if(currentValue[_0x23ab58(0x1ee)](_0x23ab58(0x226)))MeasureOfAngle===_0x23ab58(0x21d)?(x=currentValue['substring'](currentValue[_0x23ab58(0x215)]('c')+0x1),x=x['replace'](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval(x),currentValue=0x1/Math['sin'](x*Math['PI']/0xb4)['toFixed'](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue===0x3a052cf8639b6a&&(currentValue=_0x23ab58(0x20c),clearCurrentValue=!![]),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('c')+0x1),x=x['replace'](/÷/g,'/')['replace'](/×/g,'*'),x=eval(x),currentValue=0x1/Math[_0x23ab58(0x1e2)](x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(currentValue[_0x23ab58(0x1ee)]('sec('))MeasureOfAngle===_0x23ab58(0x21d)?(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('c')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval(x),currentValue=0x1/Math[_0x23ab58(0x1f2)](x*Math['PI']/0xb4)[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue===0x3a052cf8639b6a&&(currentValue='infinity',clearCurrentValue=!![]),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue['lastIndexOf']('c')+0x1),x=x['replace'](/÷/g,'/')['replace'](/×/g,'*'),x=eval(x),currentValue=0x1/Math['cos'](x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue));else{if(currentValue[_0x23ab58(0x1ee)](_0x23ab58(0x1e5)))MeasureOfAngle===_0x23ab58(0x21d)?(x=currentValue[_0x23ab58(0x1f5)](currentValue['lastIndexOf']('t')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval(x),currentValue=0x1/Math['tan'](x*Math['PI']/0xb4)[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue===6.123233995736766e-17&&(currentValue='0',clearCurrentValue=!![]),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('t')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval(x),currentValue=0x1/Math['tan'](x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(currentValue[_0x23ab58(0x1ee)](_0x23ab58(0x200)))MeasureOfAngle==='deg'?(x=currentValue['substring'](currentValue[_0x23ab58(0x215)]('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval('('+x),currentValue=(Math[_0x23ab58(0x217)](x)*0xb4/Math['PI'])[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')['replace'](/×/g,'*'),console[_0x23ab58(0x208)](x),x=eval('('+x),currentValue=Math[_0x23ab58(0x217)](x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue));else{if(currentValue[_0x23ab58(0x1ee)](_0x23ab58(0x20a)))MeasureOfAngle===_0x23ab58(0x21d)?(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('(')+0x1),x=x['replace'](/÷/g,'/')['replace'](/×/g,'*'),x=eval('('+x),currentValue=(Math[_0x23ab58(0x233)](x)*0xb4/Math['PI'])[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue['lastIndexOf']('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')['replace'](/×/g,'*'),console['log'](x),x=eval('('+x),currentValue=Math[_0x23ab58(0x233)](x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(currentValue['includes'](_0x23ab58(0x227)))MeasureOfAngle===_0x23ab58(0x21d)?(x=currentValue[_0x23ab58(0x1f5)](currentValue['lastIndexOf']('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')['replace'](/×/g,'*'),x=eval('('+x),currentValue=(Math['atan'](x)*0xb4/Math['PI'])['toFixed'](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')['replace'](/×/g,'*'),console[_0x23ab58(0x208)](x),x=eval('('+x),currentValue=Math[_0x23ab58(0x1f6)](x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(currentValue[_0x23ab58(0x1ee)]('cosec<sup><sup>-1</sup></sup>('))MeasureOfAngle===_0x23ab58(0x21d)?(x=currentValue[_0x23ab58(0x1f5)](currentValue['lastIndexOf']('(')+0x1),x=x['replace'](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval('('+x),currentValue=(Math[_0x23ab58(0x217)](0x1/x)*0xb4/Math['PI'])[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue['lastIndexOf']('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),console[_0x23ab58(0x208)](x),x=eval('('+x),currentValue=Math[_0x23ab58(0x217)](0x1/x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else{if(currentValue[_0x23ab58(0x1ee)](_0x23ab58(0x1f3)))MeasureOfAngle==='deg'?(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')['replace'](/×/g,'*'),x=eval('('+x),currentValue=(Math['acos'](0x1/x)*0xb4/Math['PI'])[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')['replace'](/×/g,'*'),console['log'](x),x=eval('('+x),currentValue=Math[_0x23ab58(0x233)](0x1/x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue));else currentValue['includes'](_0x23ab58(0x1e6))?MeasureOfAngle===_0x23ab58(0x21d)?(x=currentValue['substring'](currentValue[_0x23ab58(0x215)]('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),x=eval('('+x),currentValue=(Math[_0x23ab58(0x1f6)](0x1/x)*0xb4/Math['PI'])[_0x23ab58(0x211)](0x3),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue)):(x=currentValue[_0x23ab58(0x1f5)](currentValue[_0x23ab58(0x215)]('(')+0x1),x=x[_0x23ab58(0x22d)](/÷/g,'/')[_0x23ab58(0x22d)](/×/g,'*'),console[_0x23ab58(0x208)](x),x=eval('('+x),currentValue=Math[_0x23ab58(0x1f6)](0x1/x),currentValue%0x1===0x0&&(currentValue=parseInt(currentValue)),currentValue=shortenNumber(currentValue),historyArray[_0x23ab58(0x214)](currentValue)):(historyArray[_0x23ab58(0x214)](currentValue),currentValue=evaluateExpression(currentValue),currentValue=shortenNumber(currentValue),historyArray['push'](currentValue));}}}}}}}}}}}}}}}}}else{if(_0x3747d5==='🕒'){if(historyArray['length']<=0x1)return;currentValue=historyArray[historyArray[_0x23ab58(0x1fe)]-0x2],historyArray[_0x23ab58(0x218)]();}else currentValue==='0'?currentValue=_0x3747d5:currentValue+=_0x3747d5;}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}output[_0x23ab58(0x225)]=currentValue,clearCurrentValue&&(currentValue='0',clearCurrentValue=![]);},evaluateExpression=_0x530597=>{const _0x59950e=_0x2c6d56;currentValue=currentValue[_0x59950e(0x22d)](/÷/g,'/')[_0x59950e(0x22d)](/×/g,'*');try{return eval(currentValue);}catch(_0x35a589){return'Error';}},evaluateSpecialExpression=_0x72b336=>{return _0x72b336;};for(i=0x0;i<input[_0x2c6d56(0x1fe)];i++){input[i][_0x2c6d56(0x204)](_0x2c6d56(0x22f),buttonClicked);}document[_0x2c6d56(0x237)]('box-11')[_0x2c6d56(0x204)](_0x2c6d56(0x22f),_0x599021=>{const _0x335647=_0x2c6d56;updateOutput(_0x599021['target'][_0x335647(0x21e)]);}),document['addEventListener'](_0x2c6d56(0x22c),_0x92d3f7=>{const _0x28d373=_0x2c6d56,_0x3f114f=_0x92d3f7[_0x28d373(0x20f)];if(!/[0-9cC.=/*+-]|(|)|Backspace|Enter/[_0x28d373(0x20b)](_0x3f114f))return;if(_0x3f114f===_0x28d373(0x1f7))updateOutput('=');else{if(_0x3f114f===_0x28d373(0x1f1))updateOutput('←');else{if(_0x3f114f==='A'||_0x3f114f==='a')updateOutput('AC');else{if(_0x3f114f==='C'||_0x3f114f==='c')updateOutput('CE');else _0x3f114f==='Shift'?updateOutput(''):updateOutput(_0x3f114f);}}}});function factorial(_0x1b1c32){_0x1b1c32=parseInt(_0x1b1c32);if(_0x1b1c32===0x0||_0x1b1c32===0x1)return 0x1;let _0xcf94e3=0x1;for(let _0x22cb7c=0x2;_0x22cb7c<=_0x1b1c32;_0x22cb7c++){_0xcf94e3*=_0x22cb7c;}return _0xcf94e3;}function permutation(_0x155978,_0x28001c){const _0x26cfe4=_0x2c6d56;_0x155978=parseInt(_0x155978),_0x28001c=parseInt(_0x28001c);if(_0x28001c>_0x155978||_0x155978<0x0||_0x28001c<0x0){return _0x26cfe4(0x232);clearCurrentValue=!![];}else return permu=factorial(_0x155978)/factorial(_0x155978-_0x28001c),permu;}function combination(_0x30a005,_0x13ac1b){_0x30a005=parseInt(_0x30a005),_0x13ac1b=parseInt(_0x13ac1b);if(_0x13ac1b>_0x30a005||_0x30a005<0x0||_0x13ac1b<0x0){return'Error';clearCurrentValue=!![];}else return combi=factorial(_0x30a005)/(factorial(_0x13ac1b)*factorial(_0x30a005-_0x13ac1b)),combi;}function _0x21e9(_0x42c749,_0x50a4b0){const _0x105c52=_0x105c();return _0x21e9=function(_0x21e951,_0x50b56f){_0x21e951=_0x21e951-0x1e1;let _0xe93184=_0x105c52[_0x21e951];return _0xe93184;},_0x21e9(_0x42c749,_0x50a4b0);}function shortenNumber(_0x1daf27){const _0x54cc53=_0x2c6d56;_0x1daf27=Number(_0x1daf27);if(_0x1daf27>0x38d7ea4c67fff)return'Limit\x20exceeded';else{if(_0x1daf27>0x2540be3ff){let _0x31af4c=_0x1daf27['toFixed'](0x3);return _0x31af4c=removeTrailingZeroes(_0x31af4c),_0x31af4c;}else{if(_0x1daf27>0x98967f){let _0x448668=_0x1daf27[_0x54cc53(0x211)](0x6);return _0x448668=removeTrailingZeroes(_0x448668),_0x448668;}else{if(_0x1daf27>0x270f){let _0x3594e9=_0x1daf27[_0x54cc53(0x211)](0x9);return _0x3594e9=removeTrailingZeroes(_0x3594e9),_0x3594e9;}else{if(_0x1daf27>0x9){let _0x35c21a=_0x1daf27[_0x54cc53(0x211)](0xc);return _0x35c21a=removeTrailingZeroes(_0x35c21a),_0x35c21a;}else{let _0x37e1cb=_0x1daf27['toFixed'](0xd);return _0x37e1cb=removeTrailingZeroes(_0x37e1cb),_0x37e1cb;}}}}}}function removeTrailingZeroes(_0x219c31){const _0x418032=_0x2c6d56,_0x16c404=String(_0x219c31),_0x4f4283=_0x16c404[_0x418032(0x206)]('.');if(_0x4f4283!==-0x1){let _0x44c855=_0x16c404[_0x418032(0x1fe)]-0x1;while(_0x16c404[_0x418032(0x21c)](_0x44c855)==='0'){_0x44c855--;}return _0x16c404[_0x418032(0x21c)](_0x44c855)==='.'&&_0x44c855--,_0x16c404['slice'](0x0,_0x44c855+0x1);}return _0x16c404;}if('vibrate'in navigator){var buttons=document[_0x2c6d56(0x231)](_0x2c6d56(0x213));for(var i=0x0;i<buttons[_0x2c6d56(0x1fe)];i++){buttons[i][_0x2c6d56(0x204)]('click',function(){navigator['vibrate'](0x14);});}}
+// document.getElementsByClassName(className) returns a collection of elements with the metioned class.
+// To access any specific element of this class, we need to specify its index within the collection,
+// everytime we are targetting that element. For ex: input[0], input[1] or output[0].
+// And if we want to target only one specific element of the collection, we can hardcode its
+// index beside the getElementsByClassName(className) expression. For ex: there was only 1 and only element
+// in the 'output' class to be targetted, so we hardcoded document.getElementsByClassName('output')[0].
+const input = document.getElementsByClassName('input');
+const output = document.getElementsByClassName('output')[0];
+let currentValue = "0";   // an empty string to track the current value in the output
+
+const buttonClicked = (event) => {
+    // Code for mouseclick handling. 'event.target' refers to the element(in our code, the div)
+    // that triggered the 'click' event to call 'buttonClicked' function(event handler)
+    const clickedValue = event.target.innerHTML;
+    updateOutput(clickedValue);
+}
+
+let toggleClicks1 = 0;
+let toggleClicks2 = 0;
+let MeasureOfAngle = "deg";
+let historyArray = [];
+let clearCurrentValue = false;
+let exponentNclicked = false;
+
+const updateOutput = (value) => {
+    if(value === "🔁") {
+        toggleClicks1++;
+        if(toggleClicks1%2 === 1) {
+            document.getElementById('box-19').innerHTML = 'sin<sup><sup>-1</sup></sup>';
+            document.getElementById('box-20').innerHTML = 'cosec<sup><sup>-1</sup></sup>';
+            document.getElementById('box-28').innerHTML = 'cos<sup><sup>-1</sup></sup>';
+            document.getElementById('box-29').innerHTML = 'sec<sup><sup>-1</sup></sup>';
+            document.getElementById('box-37').innerHTML = 'tan<sup><sup>-1</sup></sup>';
+            document.getElementById('box-38').innerHTML = 'cot<sup><sup>-1</sup></sup>';
+            currentValue = currentValue;
+        } else {
+            document.getElementById('box-19').innerHTML = 'sin';
+            document.getElementById('box-20').innerHTML = 'cosec';
+            document.getElementById('box-28').innerHTML = 'cos';
+            document.getElementById('box-29').innerHTML = 'sec';
+            document.getElementById('box-37').innerHTML = 'tan';
+            document.getElementById('box-38').innerHTML = 'cot';
+            currentValue = currentValue;
+        }
+    } else if(value === "toggClick2"){
+        toggleClicks2++;
+        if(toggleClicks2%2 === 0){
+            MeasureOfAngle = "deg";
+        } else {
+            MeasureOfAngle = "rad";
+        }
+        currentValue = currentValue;
+    } else if(typeof value === 'undefined') {   
+        return;   // prevents 'undefined' coming in output screen, when user clicks on toggle button 2's background
+        currentValue = currentValue;
+    } else if(value === "AC") {
+        currentValue = "0";
+        historyArray.splice(0);   // empty historyArray if user clicks 'AC'
+    } else if(value === "CE") {
+        currentValue = "0";
+        historyArray.push(currentValue);
+    } else if(value === "←") {
+        // After we click '=', the eval() function changes the string to a number. In this case, if
+        // we press backspace, it won't work because slice() does not work on numbers. 
+        // So, if 'currentValue' is not a string, we make sure it is converted into string,
+        // so that slice() function can work properly
+        if(typeof currentValue !== 'string') {
+            currentValue = String(currentValue);   // String() constructor converts a non-string value to a string
+        }
+        // Removing the last character from the current value.
+        // slice(0, -1) extracts a substring from the original string, starting from
+        // the first character (0) and ending at the character before the last character (-1).
+        currentValue = currentValue.slice(0, -1);
+    } else if(value === "x<sup><sup>-1</sup></sup>") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue)) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+            console.log(clearCurrentValue);
+        } else {
+
+            currentValue = 1/currentValue;
+            historyArray.push(currentValue);
+        }
+    } else if(value === "!") {
+        num = eval(currentValue);
+        //num = parseFloat(currentValue);   // converting string to number  
+        // Check if the number is a positive integer
+        if (num%1 === 0 && num >= 0) {
+            currentValue = factorial(num);
+            historyArray.push(currentValue);
+        } else {
+            // Show an error message if the input is invalid
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        }
+    } else if(value === "^") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue)) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = `${currentValue}${value}`;
+        }
+    } else if(value === "x<sup><sup>3</sup></sup>") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue)) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = currentValue**3;
+            historyArray.push(currentValue);
+        }
+    } else if(value === "x<sup><sup>2</sup></sup>") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue)) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = currentValue**2;
+            historyArray.push(currentValue);
+        }
+    } else if(value === "√") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue)) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = Math.sqrt(currentValue);
+            historyArray.push(currentValue);
+        }
+    } else if(value === "∛") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue)) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = Math.cbrt(currentValue);
+            historyArray.push(currentValue);
+        }
+    } else if(value === "<sup><sup>n</sup></sup>√") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue)) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = `${currentValue}√`;
+        }
+    } else if(value === "log") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue)) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = `log(`;
+        }
+    } else if(value === "ln") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue)) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = `ln(`;
+        }
+    } else if(value === "e") {
+        currentValue = `${currentValue}${eval("Math.E")}`;
+        if(currentValue[0] === "0") {
+            currentValue = currentValue.slice(1);
+        }
+        historyArray.push(currentValue);
+    } else if(value === "<sup><sup>n</sup></sup>P<sub><sub>r</sub></sub>") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue) || currentValue%1 !== 0) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = `${currentValue}P`;
+        }
+    } else if(value === "<sup><sup>n</sup></sup>C<sub><sub>r</sub></sub>") {
+        currentValue = eval(currentValue);
+        if(isNaN(currentValue) || currentValue%1 !== 0) {
+            historyArray.push(currentValue);
+            currentValue = "Error";
+            clearCurrentValue = true;
+        } else {
+            currentValue = `${currentValue}C`;
+        }
+    } else if(value === "sin") {
+        currentValue = `sin(`;
+    } else if(value === "cos") {
+        currentValue = `cos(`;
+    } else if(value === "tan") {
+        currentValue = `tan(`;
+    } else if(value === "cosec") {
+        currentValue = `cosec(`;
+    } else if(value === "sec") {
+        currentValue = `sec(`;
+    } else if(value === "cot") {
+        currentValue = `cot(`;
+    } else if(value === "sin<sup><sup>-1</sup></sup>") {
+        currentValue = `sin<sup><sup>-1</sup></sup>(`;
+    } else if(value === "cos<sup><sup>-1</sup></sup>") {
+        currentValue = `cos<sup><sup>-1</sup></sup>(`;
+    } else if(value === "tan<sup><sup>-1</sup></sup>") {
+        currentValue = `tan<sup><sup>-1</sup></sup>(`;
+    } else if(value === "cosec<sup><sup>-1</sup></sup>") {
+        currentValue = `cosec<sup><sup>-1</sup></sup>(`;
+    } else if(value === "sec<sup><sup>-1</sup></sup>") {
+        currentValue = `sec<sup><sup>-1</sup></sup>(`;
+    } else if(value === "cot<sup><sup>-1</sup></sup>") {
+        currentValue = `cot<sup><sup>-1</sup></sup>(`;
+    } else if(value === "=") {
+        if(currentValue.includes("^")) {   // for nth exponents
+            num = currentValue.replace("^", "**");
+            currentValue = eval(num);
+            historyArray.push(currentValue);
+        } else if(currentValue.includes("√")) {   // for nth root
+            n = currentValue.substring(0, currentValue.indexOf("√"));
+            n = eval(n);
+            num = currentValue.substring(currentValue.lastIndexOf("√") + 1);
+            num = eval(num);
+            currentValue = Math.pow(num, (1/n)).toFixed(3);
+            if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                currentValue = parseInt(currentValue);
+            }
+            historyArray.push(currentValue);
+        } else if(currentValue.includes("log(")) {   // for log
+            currentValue = eval(`Math.${currentValue}/Math.log(10)`).toFixed(3);
+            if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                currentValue = parseInt(currentValue);
+            }
+            historyArray.push(currentValue);
+        } else if(currentValue.includes("ln(")) {   // for natural log
+            currentValue = currentValue.replace("ln(", "log(");
+            currentValue = eval(`Math.${currentValue}`);
+            historyArray.push(currentValue);
+        } else if(currentValue.includes("P")) {   // for nPr
+            n = currentValue.substring(0, currentValue.indexOf("P"));
+            r = currentValue.substring(currentValue.lastIndexOf("P") + 1);
+            r = eval(r);
+            currentValue = permutation(n, r);
+            historyArray.push(currentValue);
+        } else if(currentValue.includes("C")) {   // for nCr
+            n = currentValue.substring(0, currentValue.indexOf("C"));
+            r = currentValue.substring(currentValue.lastIndexOf("C") + 1);
+            r = eval(r);
+            currentValue = combination(n, r);
+            historyArray.push(currentValue);
+        } else if(currentValue.includes("sin(")) {   // for sin()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("n") + 1);   // extracts '(theeta)' from 'sin(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = Math.sin(x*Math.PI/180).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("n") + 1);   // extracts '(theeta)' from 'sin(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = Math.sin(x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("cos(")) {   // for cos()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("s") + 1);   // extracts '(theeta)' from 'cos(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = Math.cos(x*Math.PI/180).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("s") + 1);   // extracts '(theeta)' from 'cos(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = Math.cos(x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("tan(")) {   // for tan()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("n") + 1);   // extracts '(theeta)' from 'tan(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = Math.tan(x*Math.PI/180).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                if(currentValue === 16331239353195370){
+                    currentValue = "infinity";
+                    clearCurrentValue = true;
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("n") + 1);   // extracts '(theeta)' from 'tan(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = Math.tan(x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("cosec(")) {   // for cosec()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("c") + 1);   // extracts '(theeta)' from 'cosec(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = 1/Math.sin(x*Math.PI/180).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                if(currentValue === 16331239353195370){
+                    currentValue = "infinity";
+                    clearCurrentValue = true;
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("c") + 1);   // extracts '(theeta)' from 'cosec(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = 1/Math.sin(x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("sec(")) {   // for sec()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("c") + 1);   // extracts '(theeta)' from 'sec(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = 1/Math.cos(x*Math.PI/180).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                if(currentValue === 16331239353195370){
+                    currentValue = "infinity";
+                    clearCurrentValue = true;
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("c") + 1);   // extracts '(theeta)' from 'sec(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = 1/Math.cos(x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("cot(")) {   // for cot()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("t") + 1);   // extracts '(theeta)' from 'cot(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = 1/Math.tan(x*Math.PI/180).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                if(currentValue === 6.123233995736766e-17){
+                    currentValue = "0";
+                    clearCurrentValue = true;
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("t") + 1);   // extracts '(theeta)' from 'cot(theeta)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(x);
+                currentValue = 1/Math.tan(x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("sin<sup><sup>-1</sup></sup>(")) {   // for sin-1()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'sin-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(`(${x}`);
+                currentValue = (Math.asin(x)*180/Math.PI).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'sin-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                console.log(x);
+                x = eval(`(${x}`);
+                currentValue = Math.asin(x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("cos<sup><sup>-1</sup></sup>(")) {   // for cos-1()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'cos-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(`(${x}`);
+                currentValue = (Math.acos(x)*180/Math.PI).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'cos-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                console.log(x);
+                x = eval(`(${x}`);
+                currentValue = Math.acos(x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("tan<sup><sup>-1</sup></sup>(")) {   // for tan-1()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'tan-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(`(${x}`);
+                currentValue = (Math.atan(x)*180/Math.PI).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'tan-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                console.log(x);
+                x = eval(`(${x}`);
+                currentValue = Math.atan(x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("cosec<sup><sup>-1</sup></sup>(")) {   // for cosec-1()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'cosec-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(`(${x}`);
+                currentValue = (Math.asin(1/x)*180/Math.PI).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'cosec-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                console.log(x);
+                x = eval(`(${x}`);
+                currentValue = Math.asin(1/x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("sec<sup><sup>-1</sup></sup>(")) {   // for sec-1()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'sec-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(`(${x}`);
+                currentValue = (Math.acos(1/x)*180/Math.PI).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'sec-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                console.log(x);
+                x = eval(`(${x}`);
+                currentValue = Math.acos(1/x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else if(currentValue.includes("cot<sup><sup>-1</sup></sup>(")) {   // for cot-1()
+            if(MeasureOfAngle==="deg") {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'cot-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                x = eval(`(${x}`);
+                currentValue = (Math.atan(1/x)*180/Math.PI).toFixed(3);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            } else {
+                x = currentValue.substring(currentValue.lastIndexOf("(") + 1);   // extracts '(value)' from 'cot-1(value)'
+                x = x.replace(/÷/g, '/').replace(/×/g, '*');
+                console.log(x);
+                x = eval(`(${x}`);
+                currentValue = Math.atan(1/x);
+                if(currentValue%1 === 0) {   // in order remove trailing zeroes after '.'
+                    currentValue = parseInt(currentValue);
+                }
+                historyArray.push(currentValue);
+            }
+        } else {
+            historyArray.push(currentValue);
+            currentValue = evaluateExpression(currentValue);
+            currentValue = shortenNumber(currentValue);
+            historyArray.push(currentValue);
+        }      
+    } else if(value === "🕒") {
+        if(historyArray.length <= 1) {
+            return;
+        }
+        currentValue = historyArray[historyArray.length-2];
+        historyArray.pop();
+    } else {
+        if (currentValue === "0") {
+        currentValue = value;   // Removing leading 0(0 on the leftmost value) if current value is "0"
+        } else {
+            // Append the clicked value to the current value
+            // When both operands are numbers, the += operator performs numerical addition,
+            // but when one of the operands is a string, the += operator performs
+            // string concatenation instead of numerical addition. Here 'currentValue' is a string,
+            // so resultant would also be a string.
+            currentValue += value ;   // currentValue = currentValue + value
+        }
+    }
+    // This is display screen. We are overwriting innerHTML of output with value inside currentValue
+    output.innerHTML = currentValue;
+
+    if(clearCurrentValue) {
+        currentValue = "0";
+        clearCurrentValue = false;
+    }
+}
+
+const evaluateExpression = (expression) => {
+    // Evaluating the expression using the eval() function. But eval() will not be able to parse
+    // the meaning of ÷ and ×, as they were not written as / and * in HTML document.
+    // To make make eval() parse their meaning, we have to first replace
+    // ÷ symbol with / and × symbol with *, then give let the eval() evaluate the string.
+    currentValue = currentValue.replace(/÷/g, '/').replace(/×/g, '*');
+    try {
+        return eval(currentValue);
+    } catch(e) {
+        return "Error";
+    }
+}
+
+// const evaluateSpecialExpression = (result) => {
+//     return result;
+// }
+
+// Adding 'click' event listener to all input buttons at once using for loop, to handle mouseclicks.
+for (i=0; i<input.length; i++){
+    input[i].addEventListener('click', buttonClicked);
+}
+
+// Adding 'click' event listener to toggle button
+document.getElementById('box-11').addEventListener('click', (event) => {
+    updateOutput(event.target.name);
+});
+
+// Attaching 'keydown' event listener to handle keystrokes from keyboard
+document.addEventListener('keydown', (event) => {
+    // event.key is a property of the KeyboardEvent object that represents the key value of the pressed key
+    // during a keyboard event. It provides a string value that corresponds to the physical key on the keyboard.
+    const keyPressed = event.key;
+    //if any other key other than 0 to 9, c, C, =, /, *, -, +, Backspace are pressed, stop the flow of program.
+    // The test() method is a regular expression method that tests whether a given string matches a 
+    // specified pattern. It returns true if the pattern is found in the string, and false otherwise.
+    if (!/[0-9cC.=/*+-]|(|)|Backspace|Enter/.test(keyPressed)) {
+        return;   // When the code encounters the 'return' statement, it immediately exits the current function
+    }
+    if (keyPressed === 'Enter') {
+        updateOutput('=');
+    } else if (keyPressed === 'Backspace') {
+        updateOutput('←');
+    } else if (keyPressed === 'A' || keyPressed === 'a') {
+        updateOutput('AC');
+    } else if(keyPressed === 'Shift') {
+        updateOutput('');   // To type (), we use 'Shift' key. But we don't want 'Shift' string to come on output screen.
+    } else {
+        updateOutput(keyPressed);
+    }
+});
+
+function factorial(n) {
+    n = parseInt(n);
+    if (n === 0 || n === 1) {
+        return 1;
+    }  
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+
+function permutation(n, r) {
+    n = parseInt(n);
+    r = parseInt(r);
+    if(r>n || n<0 || r<0) {
+        return "Error";
+        clearCurrentValue = true;
+    } else {
+        permu = factorial(n) / factorial(n-r);
+        return permu;
+    }
+}
+
+function combination(n, r) {
+    n = parseInt(n);
+    r = parseInt(r);
+    if(r>n || n<0 || r<0) {
+        return "Error";
+        clearCurrentValue = true;
+    } else {
+        combi = factorial(n) / (factorial(r)*factorial(n-r));
+        return combi;
+    }
+}
+
+// function shortenNumber(number) {
+//     number = Number(number);
+//     if(number > 9999999999) {
+//         const num = number.toFixed(3);
+//         return num;
+//     } else if(number > 9999999) {
+//         const num = number.toFixed(6);
+//         return num;
+//     } else if(number > 9999) {
+//         const num = number.toFixed(9);
+//         return num;
+//     } else if(number > 9) {
+//         const num = number.toFixed(12);
+//         return num;
+//     } else {
+//         const num = number.toFixed(13);
+//         return num;
+//     }
+// }
+
+function shortenNumber(number) {
+    number = Number(number);
+    if(number > 9999999999999) {
+        return "Limit exceeded";
+    } else if(number > 9999999999) {
+        let num = number.toFixed(3);
+        num = removeTrailingZeroes(num);
+        return num;
+    } else if(number > 9999999) {
+        let num = number.toFixed(6);
+        num = removeTrailingZeroes(num);
+        return num;
+    } else if(number > 9999) {
+        let num = number.toFixed(9);
+        num = removeTrailingZeroes(num);
+        return num;
+    } else if(number > 9) {
+        let num = number.toFixed(12);
+        num = removeTrailingZeroes(num);
+        return num;
+    } else {
+        let num = number.toFixed(13);
+        num = removeTrailingZeroes(num);
+        return num;
+    }
+}
+
+function removeTrailingZeroes(num) {
+    const str = String(num);
+    const substr = str.indexOf('.');
+    if(substr !== -1) {
+        let x = str.length - 1;
+        while(str.charAt(x) === '0') {
+            x--;
+        }
+        if(str.charAt(x) === '.') {
+            x--;
+        }
+        return str.slice(0, x + 1);
+    }
+    return str;
+}
+
+// Check if Vibration API is supported
+if ('vibrate' in navigator) {
+    // Get all the calculator buttons
+    var buttons = document.getElementsByClassName('box');
+
+    // Attach a click event listener to each button
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener('click', function() {
+        // Vibrate the device for 100 milliseconds
+        navigator.vibrate(20);
+      });
+    }
+}
